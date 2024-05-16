@@ -9,7 +9,10 @@ const allPosts = (await getCollection("blog")).sort(
 
 <Layout title="Welcome to Astro.">
   <Header />
-  <main class="wrapper flow region" style="--wrapper-max-width: 65ch;">
+  <main
+    class="wrapper flow region region-space-m-l"
+    style="--wrapper-max-width: 65ch;"
+  >
     <h1>Musings of Frank Stallone II</h1>
     <p>Here lies the musings of Frank Stallone II</p>
   </main>
