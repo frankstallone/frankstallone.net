@@ -1,12 +1,12 @@
-@import 'tailwindcss/base';
+@import "tailwindcss/base";
 
-@import 'global/reset.css';
-@import 'global/fonts.css';
+@import "global/reset.css";
+@import "global/fonts.css";
 
-@import 'tailwindcss/components';
+@import "tailwindcss/components";
 
-@import 'global/variables.css';
-@import 'global/global-styles.css';
+@import "global/variables.css";
+@import "global/global-styles.css";
 /* 
 See issue: https://github.com/frankstallone/astro-cube-boilerplate/issues/1
 Reference source: https://github.com/Set-Creative-Studio/cube-boilerplate/blob/main/src/css/global.css#L11
@@ -16,17 +16,19 @@ Reference source: https://github.com/Set-Creative-Studio/cube-boilerplate/blob/m
 @import-glob 'utilities/*.css' layer(components); 
 */
 
-@import 'blocks/prose.css' layer(components);
-@import 'components/box.css' layer(components);
-@import 'components/cluster.css' layer(components);
-@import 'components/flow.css' layer(components);
-@import 'components/grid.css' layer(components);
-@import 'components/icon.css' layer(components);
-@import 'components/repel.css' layer(components);
-@import 'components/sidebar.css' layer(components);
-@import 'components/switcher.css' layer(components);
-@import 'components/wrapper.css' layer(components);
-@import 'utilities/region.css' layer(components);
-@import 'utilities/visually-hidden.css' layer(components);
+@import "blocks/button.css" layer(components);
+@import "blocks/prose.css" layer(components);
+@import "components/box.css" layer(components);
+@import "components/cluster.css" layer(components);
+@import "components/flow.css" layer(components);
+@import "components/grid.css" layer(components);
+@import "components/icon.css" layer(components);
+@import "components/repel.css" layer(components);
+@import "components/sidebar.css" layer(components);
+@import "components/switcher.css" layer(components);
+@import "components/stack.css" layer(components);
+@import "components/wrapper.css" layer(components);
+@import "utilities/region.css" layer(components);
+@import "utilities/visually-hidden.css" layer(components);
 
-@import 'tailwindcss/utilities';
+@import "tailwindcss/utilities";

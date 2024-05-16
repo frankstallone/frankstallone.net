@@ -1,6 +1,10 @@
 ---
+import { getCollection } from "astro:content";
 import Header from "../components/Header.astro";
 import Layout from "../layouts/Layout.astro";
+const allPosts = (await getCollection("blog")).sort(
+  (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
+);
 ---
 
 <Layout title="Welcome to Astro.">
@@ -9,4 +13,46 @@ import Layout from "../layouts/Layout.astro";
     <h1>Musings of Frank Stallone II</h1>
     <p>Here lies the musings of Frank Stallone II</p>
   </main>
+  <section class="wrapper" id="main" style="--wrapper-max-width: 65ch;">
+    {
+      allPosts.map((post) => (
+        <div class="region">
+          <div class="box flow prose bg-gray-300">
+            <h2>
+              <a class="button" href={`/${post.slug}/`}>
+                {post.data.title}
+              </a>
+            </h2>
+            <p class="mt-2xs">
+              <small class="font-mono text-gray-1000 text-step-00">
+                <span class="py-3xs">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512"
+                    fill="currentColor"
+                    class="icon"
+                  >
+                    <path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z" />
+                  </svg>
+                  {new Date(post.data.publishDate).toLocaleDateString(
+                    undefined,
+                    {
+                      weekday: "long",
+                      year: "numeric",
+                      month: "long",
+                      day: "numeric",
+                    }
+                  )}
+                </span>
+              </small>
+            </p>
+            <p>{post.data.description}</p>
+            <p>
+              <a href={`/${post.slug}/`}>Read more &hellip;</a>
+            </p>
+          </div>
+        </div>
+      ))
+    }
+  </section>
 </Layout>

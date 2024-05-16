@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import BlogLayout from "../layouts/BlogLayout.astro";
+import Contact from "../components/Contact.astro";
 
 export async function getStaticPaths() {
   const blogEntries = await getCollection("blog");
@@ -28,5 +29,6 @@ const { Content } = await entry.render();
     style="--wrapper-max-width: 65ch;"
   >
     <Content />
+    <Contact />
   </article>
 </BlogLayout>
