@@ -17,6 +17,20 @@
     {
       "name": "Primary",
       "value": "#02394A"
-    }
+    },
+    { "name": "Gray 100", "value": "#fcfcfc" },
+    { "name": "Gray 200", "value": "#f9f9f9" },
+    { "name": "Gray 300", "value": "#f6f6f6" },
+    { "name": "Gray 400", "value": "#f3f3f3" },
+    { "name": "Gray 500", "value": "#f0f0f0" },
+    { "name": "Gray 600", "value": "#e6e6e6" },
+    { "name": "Gray 700", "value": "#c9c9c9" },
+    { "name": "Gray 800", "value": "#adadad" },
+    { "name": "Gray 900", "value": "#919191" },
+    { "name": "Gray 1000", "value": "#757575" },
+    { "name": "Gray 1100", "value": "#5c5c5c" },
+    { "name": "Gray 1200", "value": "#454545" },
+    { "name": "Gray 1300", "value": "#2e2e2e" },
+    { "name": "Gray 1400", "value": "#1b1b1b" }
   ]
 }

@@ -1,0 +1,16 @@
+---
+import BlogHero from '../components/BlogHero.astro';
+import Head from '../components/Head.astro';
+const { meta } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <Head {...meta} />
+  <body>
+    <main>
+      <BlogHero title={meta.title} />
+      <slot />
+    </main>
+  </body>
+</html>
