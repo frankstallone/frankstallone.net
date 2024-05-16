@@ -1,9 +1,9 @@
 {
-  "name": "astro-cube-boilerplate",
+  "name": "frankstallone-net",
   "type": "module",
   "version": "0.0.1",
   "author": "Frank Stallone <frank@stallone.dev>",
-  "description": "A simple Astro boilerplate with CUBE CSS and TailwindCSS",
+  "description": "Website for my father, Frank Stallone II",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
