@@ -15,12 +15,12 @@ const pathname = Astro.url.pathname;
       class="switcher"
       method="POST"
       data-netlify="true"
-      action="/"
+      action="/thank-you/"
     >
       <input
         type="hidden"
         name="subject"
-        value={`🤖 Form submission: frankstallone.net/${pathname}`}
+        value={`🤖 Form submission: frankstallone.net${pathname}`}
       />
       <p class="hidden">
         <label for="bot-field">Do you like delicious treats?</label>
