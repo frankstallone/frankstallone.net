@@ -1,12 +1,13 @@
 ---
 import Header from "./Header.astro";
-const { title } = Astro.props;
+const { title, hero } = Astro.props;
 ---
 
 <Header />
 <div
-  class="text-balance wrapper region region-space-m-l"
+  class="wrapper region region-space-m-l flow text-center"
   style="--wrapper-max-width: 65ch;"
 >
   <h1>{title}</h1>
+  <img src={hero} class="object-contain" />
 </div>

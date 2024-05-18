@@ -1,6 +1,6 @@
 ---
-import BlogHero from '../components/BlogHero.astro';
-import Head from '../components/Head.astro';
+import BlogHero from "../components/BlogHero.astro";
+import Head from "../components/Head.astro";
 const { meta } = Astro.props;
 ---
 
@@ -9,7 +9,7 @@ const { meta } = Astro.props;
   <Head {...meta} />
   <body>
     <main>
-      <BlogHero title={meta.title} />
+      <BlogHero title={meta.title} hero={meta.hero} />
       <slot />
     </main>
   </body>

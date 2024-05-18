@@ -21,10 +21,11 @@ const { Content } = await entry.render();
     description: entry.data.description,
     image: entry.data.image,
     canonicalURL: `https://frankstallone.net/${entry.slug}/`,
+    hero: entry.data.hero,
   }}
 >
   <article
-    class="region wrapper flow prose overflow-hidden mx-auto"
+    class="region region-space-m-l wrapper flow prose overflow-hidden mx-auto"
     id="main"
     style="--wrapper-max-width: 65ch;"
   >
