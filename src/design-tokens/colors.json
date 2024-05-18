@@ -31,6 +31,25 @@
     { "name": "Gray 1100", "value": "#5c5c5c" },
     { "name": "Gray 1200", "value": "#454545" },
     { "name": "Gray 1300", "value": "#2e2e2e" },
-    { "name": "Gray 1400", "value": "#1b1b1b" }
+    { "name": "Gray 1400", "value": "#1b1b1b" },
+    { "name": "Orange 100", "value": "#faeee5" },
+    { "name": "Orange 200", "value": "#fbe0d0" },
+    { "name": "Orange 300", "value": "#f7bca2" },
+    { "name": "Orange 400", "value": "#f3966d" },
+    { "name": "Orange 500", "value": "#e17141" },
+    { "name": "Orange 600", "value": "#bd5727" },
+    { "name": "Orange 700", "value": "#914734" },
+    { "name": "Orange 800", "value": "#633a32" },
+    { "name": "Orange 900", "value": "#3d2925" },
+    { "name": "Orange 1000", "value": "#1c1615" },
+    { "name": "Orange Vivid 100", "value": "#fff3ea" },
+    { "name": "Orange Vivid 200", "value": "#ffe2d1" },
+    { "name": "Orange Vivid 300", "value": "#fbbaa7" },
+    { "name": "Orange Vivid 400", "value": "#fc906d" },
+    { "name": "Orange Vivid 500", "value": "#ff580a" },
+    { "name": "Orange Vivid 600", "value": "#cf4900" },
+    { "name": "Orange Vivid 700", "value": "#a72f10" },
+    { "name": "Orange Vivid 800", "value": "#782312" },
+    { "name": "Orange Vivid 900", "value": "#3d231d" }
   ]
 }
