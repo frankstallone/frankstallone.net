@@ -23,16 +23,16 @@ h6 {
 }
 
 h1 {
-  @apply text-step-5;
+  font-size: var(--size-step-3);
   max-inline-size: 50ch;
 }
 
 h2 {
-  @apply text-step-4;
+  font-size: var(--size-step-2);
 }
 
 h3 {
-  @apply text-step-3;
+  font-size: var(--size-step-1);
 }
 
 /* Baseline for default links */
