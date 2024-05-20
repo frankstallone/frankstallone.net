@@ -1,6 +1,6 @@
 ---
 isDraft: false
-title: 'A Message from the Glenda in the "Wizard of Oz"'
+title: 'A Message from the Glenda, the good witch, in the "Wizard of Oz"'
 publishDate: 06-18-2024
 description: "From The Wizard of Oz Movie (1939) Staring Judy Garland"
 hero: /media/yellow-brick-road.png
