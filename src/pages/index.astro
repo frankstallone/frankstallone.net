@@ -1,27 +1,32 @@
 ---
 import { getCollection } from "astro:content";
+import { getImage } from "astro:assets";
 import Header from "../components/Header.astro";
 import Layout from "../layouts/Layout.astro";
+import hero from "../assets/milky-way.png";
+const optimizedBackground = await getImage({ src: hero, format: "webp" });
 const allPosts = (await getCollection("blog")).sort(
   (a, b) => b.data.publishDate.valueOf() - a.data.publishDate.valueOf()
 );
 ---
 
-<Layout title="Welcome to Astro.">
-  <Header />
-  <main
-    class="wrapper flow region region-space-m-l"
-    style="--wrapper-max-width: 65ch;"
+<Layout title="Home of Frank Stallone II">
+  <div
+    class="bg-cover bg-center bg-blend-overlay py-l-xl text-orange-vivid-100 bg-orange-900"
+    style={`background-image: url(${optimizedBackground.src}), linear-gradient(rgba(61, 35, 29, 0.025), rgba(61, 35, 29, 0.75));`}
   >
-    <h1>Frank's Anything Goes Corner</h1>
-    <p>
-      Articles about people, places, and things, science, cosmology, literature,
-      history, the arts, philosophy, psychology and the news as such.
-      &#8220;Anything Goes&#8221; strives to be an informative and entertaining
-      column.
-    </p>
-  </main>
-  <section class="wrapper" id="main" style="--wrapper-max-width: 65ch;">
+    <Header />
+    <div class="wrapper region" style="--wrapper-max-width: 65ch;">
+      <h1>Frank's Anything Goes Corner</h1>
+      <p>
+        Articles about people, places, and things, science, cosmology,
+        literature, history, the arts, philosophy, psychology and the news as
+        such. &#8220;Anything Goes&#8221; strives to be an informative and
+        entertaining column.
+      </p>
+    </div>
+  </div>
+  <main class="wrapper" id="main" style="--wrapper-max-width: 65ch;">
     {
       allPosts.map((post) => (
         <div class="region">
@@ -60,5 +65,5 @@ const allPosts = (await getCollection("blog")).sort(
         </div>
       ))
     }
-  </section>
+  </main>
 </Layout>
