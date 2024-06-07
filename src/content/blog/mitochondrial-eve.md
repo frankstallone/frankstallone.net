@@ -1,9 +1,9 @@
 ---
 isDraft: false
-title: "MITOCHONDRIAL EVE"
+title: "Mitochondrial Eve"
 publishDate: 06-6-2024
 description: "Article by developed from scientific papers referenced below"
-# hero: /media/yellow-brick-road.png
+hero: /media/dna.jpg
 ---
 
 _Article by developed from scientific papers referenced below_
