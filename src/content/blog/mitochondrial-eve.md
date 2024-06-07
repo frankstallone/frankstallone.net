@@ -3,7 +3,7 @@ isDraft: false
 title: "Mitochondrial Eve"
 publishDate: 06-6-2024
 description: "Article by developed from scientific papers referenced below"
-hero: /media/dna.jpg
+hero: ../../assets/blog/dna.jpg
 ---
 
 _Article by developed from scientific papers referenced below_

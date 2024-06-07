@@ -1,4 +1,5 @@
 ---
+import { Picture } from "astro:assets";
 import Header from "./Header.astro";
 const { title, hero } = Astro.props;
 ---
@@ -9,5 +10,13 @@ const { title, hero } = Astro.props;
   style="--wrapper-max-width: 65ch;"
 >
   <h1>{title}</h1>
-  <img src={hero} class="object-contain" />
+  <Picture
+    src={hero}
+    alt="A hero image"
+    class="object-contain"
+    widths={[500, 700, 1000, hero.width]}
+    sizes={`(max-width: 360px) 500px, (max-width: 720px) 700px, (max-width: 1200px) 1000px, ${hero.width}px`}
+    quality={80}
+    formats={["avif", "webp"]}
+  />
 </div>
