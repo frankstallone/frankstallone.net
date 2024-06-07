@@ -26,10 +26,10 @@ const allPosts = (await getCollection("blog")).sort(
       </p>
     </div>
   </div>
-  <main class="wrapper" id="main" style="--wrapper-max-width: 65ch;">
-    {
-      allPosts.map((post) => (
-        <div class="region">
+  <main class="region wrapper" id="main" style="--wrapper-max-width: 65ch;">
+    <div class="flex flex-col space-y-m">
+      {
+        allPosts.map((post) => (
           <div class="box flow prose border-4 border-orange-vivid-300">
             <h2>
               <a href={`/${post.slug}/`}>{post.data.title}</a>
@@ -62,8 +62,8 @@ const allPosts = (await getCollection("blog")).sort(
               <a href={`/${post.slug}/`}>Read more &hellip;</a>
             </p>
           </div>
-        </div>
-      ))
-    }
+        ))
+      }
+    </div>
   </main>
 </Layout>
