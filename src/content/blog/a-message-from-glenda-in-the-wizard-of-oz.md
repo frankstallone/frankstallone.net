@@ -3,10 +3,8 @@ isDraft: false
 title: 'A Message from Glenda, the good witch, in the "Wizard of Oz"'
 publishDate: 05-18-2024
 description: "From The Wizard of Oz Movie (1939) Staring Judy Garland"
-hero: ../../assets/blog/yellow-brick-road.png
+hero: "@assets/blog/yellow-brick-road.png"
 ---
-
-_From "The Wizard of Oz" Movie (1939) Staring Judy Garland_
 
 At about 1:36:20, Wizard of Oz movie time, this scene begins right after Dorothy had visited the Wizard. However, she is still troubled because the Wizard never told her how she could return to Kansas.
 

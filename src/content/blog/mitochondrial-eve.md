@@ -1,12 +1,10 @@
 ---
 isDraft: false
-title: "Mitochondrial Eve"
+title: "Mitochondrial eve"
 publishDate: 06-6-2024
 description: "Article by developed from scientific papers referenced below"
-hero: ../../assets/blog/dna.jpg
+hero: "@assets/blog/dna.jpg"
 ---
-
-_Article by developed from scientific papers referenced below_
 
 An interesting Science publication authored by Roger Lewiin depicts this story from scientific papers about how an ancient mitochondrial DNA within all our cells has been traced to a common ancestor, known as “Mitochondrial Eve”. This so-called Eve was a woman who lived 200,000 years ago and had enough daughters in a continuous chain that her Mitochondrial DNA survived to this day in every country worldwide.
 

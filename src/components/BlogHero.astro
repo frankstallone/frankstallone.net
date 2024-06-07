@@ -13,7 +13,7 @@ const { title, hero } = Astro.props;
   <Picture
     src={hero}
     alt="A hero image"
-    class="object-contain"
+    class="object-contain h-auto"
     widths={[500, 700, 1000, hero.width]}
     sizes={`(max-width: 360px) 500px, (max-width: 720px) 700px, (max-width: 1200px) 1000px, ${hero.width}px`}
     quality={80}
