@@ -39,9 +39,9 @@ themselves.
 Today, the Socratic Dialectic might also be presented under the
 title of "cold calling", the asking and answering questions to
 stimulate critical thinking. In Law school, when experiencing "cold
-calling", you must be prepared to be put on the spot. The movie
+calling", you must be prepared to be put on the spot.
 
-"Legally Blonde" (2001) demonstrates the "do-or-die" high stakes
+The movie "Legally Blonde" (2001) demonstrates the "do-or-die" high stakes
 of questions from a Harvard law professor. In that movie, Reese
 Witherspoon chases her boyfriend by studying hard to pass the
 exam for entrance to Harvard Law School. In her first classroom,
@@ -59,8 +59,10 @@ thinking tool" for finding causes, answers, evidence, or truths.
 This investigative method is used for applications of law In the
 courthouse. The "voir dire" jury selection translates as "to speak
 the truth" when questioning potential jurors or witnesses to
-determine suitability for a court case. Socrates is still a part of us.
+determine suitability for a court case.
 
-Pay attention to the underlined subjects. The test is on Monday.
+Socrates is still a part of us.
 
 Next, Part 2 will explain how Socrates gets into big trouble.
+
+Pay attention to the underlined subjects. The test is on Monday.
