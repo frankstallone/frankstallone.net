@@ -66,5 +66,4 @@ of finding wisdom, and truths. Incredibly, 2,400 years later, many
 of us still haven’t learned how to find wisdom, and truths.
 
 I’d like to thank all of you who took the time to read about this
-remarkable man. Please see me or email me with your questions
-or comments. This will also be on my website, frankstallone.net
+remarkable man.
