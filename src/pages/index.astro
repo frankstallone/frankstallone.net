@@ -36,7 +36,7 @@ const allPosts = (await getCollection("blog")).sort(
         allPosts.map((post) => (
           <div class="box flow prose border-4 border-orange-vivid-300">
             <h2>
-              <a href={`/${post.slug}/`}>{post.data.title}</a>
+              <a href={`/${post.id}/`}>{post.data.title}</a>
             </h2>
             <p class="mt-2xs">
               <small class="font-mono text-orange-700 text-step-00">
@@ -63,7 +63,7 @@ const allPosts = (await getCollection("blog")).sort(
             </p>
             <p>{post.data.description}</p>
             <p>
-              <a href={`/${post.slug}/`}>Read more &hellip;</a>
+              <a href={`/${post.id}/`}>Read more &hellip;</a>
             </p>
           </div>
         ))

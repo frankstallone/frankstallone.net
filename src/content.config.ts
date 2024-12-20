@@ -1,8 +1,9 @@
 // 1. Import utilities from `astro:content`
-import { z, defineCollection } from "astro:content";
+import { z, defineCollection } from 'astro:content';
+import { glob } from 'astro/loaders';
 // 2. Define your collection(s)
 const blogCollection = defineCollection({
-  type: "content",
+  loader: glob({ pattern: '**/[^_]*.md', base: './src/blog' }),
   schema: ({ image }) =>
     z.object({
       isDraft: z.boolean(),
@@ -13,16 +14,8 @@ const blogCollection = defineCollection({
         .string()
         .or(z.date())
         .transform((val) => new Date(val)),
-      image: image()
-        .refine((img) => img.width >= 1000, {
-          message: "OG image must be at least 1000 pixels wide!",
-        })
-        .optional(),
-      hero: image()
-        .refine((img) => img.width >= 1000, {
-          message: "Cover image must be at least 1000 pixels wide!",
-        })
-        .optional(),
+      image: image().optional(),
+      hero: image().optional(),
     }),
 });
 // 3. Export a single `collections` object to register your collection(s)

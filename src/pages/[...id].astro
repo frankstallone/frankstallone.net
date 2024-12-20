@@ -1,0 +1,35 @@
+---
+import { getCollection, render } from 'astro:content';
+import BlogLayout from '../layouts/BlogLayout.astro';
+import Contact from '../components/Contact.astro';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  return posts.map((post) => ({
+    params: { id: post.id },
+    props: { post },
+  }));
+}
+
+const { post } = Astro.props;
+const { Content } = await render(post);
+---
+
+<BlogLayout
+  meta={{
+    title: post.data.title,
+    description: post.data.description,
+    image: post.data.image,
+    canonicalURL: `https://frankstallone.net/${post.id}/`,
+    hero: post.data.hero,
+  }}
+>
+  <article
+    class="wrapper flow prose overflow-hidden mx-auto"
+    id="main"
+    style="--wrapper-max-width: 65ch;"
+  >
+    <Content />
+    <Contact />
+  </article>
+</BlogLayout>

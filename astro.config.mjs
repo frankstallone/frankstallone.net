@@ -1,10 +1,11 @@
-import { defineConfig } from "astro/config";
-import tailwind from "@astrojs/tailwind";
-import partytown from "@astrojs/partytown";
-import sitemap from "@astrojs/sitemap";
+import { defineConfig } from 'astro/config';
+import tailwind from '@astrojs/tailwind';
+import partytown from '@astrojs/partytown';
+import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://frankstallone.net',
   integrations: [
     tailwind({
       applyBaseStyles: false,
@@ -13,10 +14,10 @@ export default defineConfig({
     sitemap(),
   ],
   compilerOptions: {
-    baseUrl: ".",
+    baseUrl: '.',
     paths: {
-      "@components/*": ["src/components/*"],
-      "@assets/*": ["src/assets/*"],
+      '@components/*': ['src/components/*'],
+      '@assets/*': ['src/assets/*'],
     },
   },
 });
