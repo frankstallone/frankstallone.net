@@ -10,7 +10,7 @@ Metaphors in music helps us to simulate or portray a tone, an attitude, or an in
 
 Stevie Nicks "Landslide" lyrics are an excellent example:
 
-Before teaming up with Fleetwood Mac, Lindsay Buckingham and Stevie Nicks were struggling in poverty, living in a friend’s house near a mountain in Aspin Colorado. They were trying to succeed as a duo called "Buckingham and Nicks".  Stevie created music and Lindsay paired with her to produce recordings. He also filled in as a studio musician when he could. Stevie became a waitress and a cleaning lady to survive.
+Before teaming up with Fleetwood Mac, Lindsay Buckingham and Stevie Nicks were struggling in poverty, living in a friend’s house near a mountain in Aspen Colorado. They were trying to succeed as a duo called "Buckingham and Nicks".  Stevie created music and Lindsay paired with her to produce recordings. He also filled in as a studio musician when he could. Stevie became a waitress and a cleaning lady to survive.
 
 One of Stevie’s musical creations was picked up and recorded at a major studio where they both enjoyed meeting famous musical performers. Their recording was brilliant. They felt they were near the top of their snow-covered mountain, However, their brilliant recording flopped. No one else liked it.
 
